@@ -368,7 +368,7 @@ def apply_external_force_torque(
 class FieldSpec:
   """Specification for how to handle a particular field."""
 
-  entity_type: Literal["dof", "joint", "body", "geom", "site", "actuator"]
+  entity_type: Literal["dof", "joint", "body", "geom", "site", "actuator", "tendon"]
   use_address: bool = False  # True for fields that need address (q_adr, v_adr)
   default_axes: list[int] | None = None
   valid_axes: list[int] | None = None
@@ -399,6 +399,11 @@ FIELD_SPECS = {
   "site_quat": FieldSpec("site", default_axes=[0, 1, 2, 3]),
   # Special case - uses address.
   "qpos0": FieldSpec("joint", use_address=True),
+  # Tendon - uses IDs directly.
+  "tendon_length0": FieldSpec("tendon"),
+  "tendon_armature": FieldSpec("tendon"),
+  "tendon_damping": FieldSpec("tendon"),
+  "tendon_frictionloss": FieldSpec("tendon"),
 }
 
 
@@ -500,6 +505,8 @@ def _get_entity_indices(
       return indexing.geom_ids[asset_cfg.geom_ids]
     case "site":
       return indexing.site_ids[asset_cfg.site_ids]
+    case "tendon":
+      return indexing.tendon_ids[asset_cfg.tendon_ids]
     case "actuator":
       assert indexing.ctrl_ids is not None
       return indexing.ctrl_ids[asset_cfg.actuator_ids]
