@@ -202,7 +202,7 @@ def test_randomize_field(device, field, ranges, operation, entity_names, axes, s
     ("tendon_frictionloss", (0.5, 1.5), "scale", 789),
   ],
 )
-def test_randomize_tendon_field(device, field, ranges, operation,seed):
+def test_randomize_tendon_field(device, field, ranges, operation, seed):
   """Test that tendon randomization changes values, respects ranges, and creates diversity."""
   torch.manual_seed(seed)
   env = create_test_env(device, robot_xml=ROBOT_TENDON_XML)
