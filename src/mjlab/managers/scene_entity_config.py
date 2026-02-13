@@ -25,9 +25,7 @@ _FIELD_CONFIGS = [
   _FieldConfig(
     "actuator_names", "actuator_ids", "find_actuators", "num_actuators", "actuator"
   ),
-  _FieldConfig(
-      "tendon_names", "tendon_ids", "find_tendons", "num_tendons", "tendon"
-  ),
+  _FieldConfig("tendon_names", "tendon_ids", "find_tendons", "num_tendons", "tendon"),
 ]
 
 
