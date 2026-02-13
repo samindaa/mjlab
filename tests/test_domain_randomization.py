@@ -70,7 +70,8 @@ ROBOT_TENDON_XML = """
   </worldbody>
 
   <tendon>
-    <spatial name="wire" limited="true" range="0 0.35" width="0.003" damping="1.0" armature="1.0" frictionloss="1.0">
+    <spatial name="wire" limited="true" range="0 0.35"
+      width="0.003" damping="1.0" armature="1.0" frictionloss="1.0">
       <site site="anchor"/>
       <site site="hook"/>
     </spatial>
@@ -242,7 +243,9 @@ def test_randomize_tendon_field(device, field, ranges, operation,seed):
   assert_values_changed(initial_values, new_values)
 
   if operation == "add":
-    assert_values_in_range(new_values, ranges[0] - initial_values, ranges[1] + initial_values)
+    assert_values_in_range(
+      new_values, ranges[0] - initial_values, ranges[1] + initial_values
+    )
   elif operation == "scale":
     assert_values_in_range(
       new_values, ranges[0] * initial_values, ranges[1] * initial_values
