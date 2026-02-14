@@ -400,7 +400,6 @@ FIELD_SPECS = {
   # Special case - uses address.
   "qpos0": FieldSpec("joint", use_address=True),
   # Tendon - uses IDs directly.
-  "tendon_length0": FieldSpec("tendon"),
   "tendon_armature": FieldSpec("tendon"),
   "tendon_damping": FieldSpec("tendon"),
   "tendon_frictionloss": FieldSpec("tendon"),
