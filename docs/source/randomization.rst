@@ -60,7 +60,7 @@ Available Fields
 ----------------
 
 **Joint/DOF:** ``dof_armature``, ``dof_frictionloss``, ``dof_damping``, ``jnt_range``,
-``jnt_stiffness``, ``qpos0``, ``tendon_length0``, ``tendon_armature``, ``tendon_damping``,
+``jnt_stiffness``, ``qpos0``, ``tendon_armature``, ``tendon_damping``,
 ``tendon_frictionloss``
 
 **Body:** ``body_mass``, ``body_ipos``, ``body_iquat``, ``body_inertia``, ``body_pos``,
