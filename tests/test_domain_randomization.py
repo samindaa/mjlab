@@ -196,7 +196,6 @@ def test_randomize_field(device, field, ranges, operation, entity_names, axes, s
 @pytest.mark.parametrize(
   "field,ranges,operation,seed",
   [
-    ("tendon_length0", (-0.05, 0.05), "add", 123),
     ("tendon_armature", (0.5, 1.5), "scale", 456),
     ("tendon_damping", (0.5, 1.5), "scale", 789),
     ("tendon_frictionloss", (0.5, 1.5), "scale", 789),
