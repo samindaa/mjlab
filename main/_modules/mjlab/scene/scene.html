@@ -56,7 +56,7 @@
     <link rel="search" title="Search" href="../../../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Feb 16, 2026"/>
+    <meta name="docbuild:last-update" content="May 12, 2026"/>
   </head>
   
   
@@ -144,7 +144,7 @@
   
   
   
-    <p class="title logo__title">The mjlab Documentation</p>
+    <p class="title logo__title">mjlab Documentation</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -174,16 +174,57 @@
 </div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">User Guide</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../../source/installation.html">Installation Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/migration_isaac_lab.html">Migrating from Isaac Lab</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../source/tutorials.html">Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/tutorials/cartpole.html">Cartpole: Building Your First Environment</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">About the Project</span></p>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/contributing.html">Contributing</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concepts</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../../source/motivation.html">Why mjlab?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/faq.html">FAQ &amp; Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/changelog.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/architecture_overview.html">Architecture Overview</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../source/entity/index.html">Entity</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/entity/entity_data.html">Entity Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/entity/per_world_mesh.html">Heterogeneous Worlds</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/actuators.html">Actuators</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../source/sensors/index.html">Sensors</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/sensors/raycast_sensor.html">RayCast Sensor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/sensors/rgbd_camera.html">RGB-D Camera</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/scene.html">Scene</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/terrain.html">Terrain</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">The Manager Layer</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../source/environment_config.html">Environment Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/observations.html">Observations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/actions.html">Actions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/rewards.html">Rewards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/terminations.html">Terminations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/commands.html">Commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/events.html">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/randomization.html">Domain Randomization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/curriculum.html">Curriculum</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/metrics.html">Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/recorders.html">Recorders</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Training &amp; Debugging</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../../source/training/rsl_rl.html">Training with RSL-RL</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/training/motion_imitation.html">Motion Imitation</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/viewers.html">Viewers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/training/distributed_training.html">Distributed Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/training/cloud.html">Cloud Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/debugging/nan_guard.html">NaN Guard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/debugging/export_scene.html">Export Scene</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">API Reference</span></p>
 <ul class="nav bd-sidenav">
@@ -196,18 +237,19 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../source/api/sensor.html">mjlab.sensor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../source/api/managers.html">mjlab.managers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../source/api/terrains.html">mjlab.terrains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/api/rl.html">mjlab.rl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/api/viewer.html">mjlab.viewer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../source/api/tasks.html">mjlab.tasks</a></li>
 </ul>
 </details></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Core Concepts</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Further Reading</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../../source/randomization.html">Domain Randomization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/nan_guard.html">NaN Guard</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/observation.html">Observation History and Delay</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/actuators.html">Actuators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/sensors.html">Sensors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/raycast_sensor.html">RayCast Sensor</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../source/distributed_training.html">Distributed Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/motivation.html">Why mjlab?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/migration_isaac_lab.html">Migrating from Isaac Lab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/faq.html">FAQ &amp; Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/research.html">Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../source/changelog.html">Changelog</a></li>
 </ul>
 
     </div>
@@ -371,11 +413,12 @@ document.write(`
 <span class="kn">import</span><span class="w"> </span><span class="nn">torch</span>
 
 <span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.entity</span><span class="w"> </span><span class="kn">import</span> <span class="n">Entity</span><span class="p">,</span> <span class="n">EntityCfg</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.sensor</span><span class="w"> </span><span class="kn">import</span> <span class="n">BuiltinSensor</span><span class="p">,</span> <span class="n">Sensor</span><span class="p">,</span> <span class="n">SensorCfg</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.entity.variants</span><span class="w"> </span><span class="kn">import</span> <span class="n">VariantMetadata</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.sensor</span><span class="w"> </span><span class="kn">import</span> <span class="n">BuiltinSensor</span><span class="p">,</span> <span class="n">RayCastSensor</span><span class="p">,</span> <span class="n">Sensor</span><span class="p">,</span> <span class="n">SensorCfg</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.sensor.camera_sensor</span><span class="w"> </span><span class="kn">import</span> <span class="n">CameraSensor</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.sensor.raycast_sensor</span><span class="w"> </span><span class="kn">import</span> <span class="n">RayCastSensor</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.sensor.sensor_context</span><span class="w"> </span><span class="kn">import</span> <span class="n">SensorContext</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.terrains.terrain_importer</span><span class="w"> </span><span class="kn">import</span> <span class="n">TerrainImporter</span><span class="p">,</span> <span class="n">TerrainImporterCfg</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.terrains.terrain_entity</span><span class="w"> </span><span class="kn">import</span> <span class="n">TerrainEntity</span><span class="p">,</span> <span class="n">TerrainEntityCfg</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">mjlab.utils.spec</span><span class="w"> </span><span class="kn">import</span> <span class="n">export_spec</span><span class="p">,</span> <span class="n">non_default_option_fields</span>
 
 <span class="n">_SCENE_XML</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="s2">&quot;scene.xml&quot;</span>
 
@@ -384,13 +427,30 @@ document.write(`
 <a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.SceneCfg">[docs]</a>
 <span class="nd">@dataclass</span><span class="p">(</span><span class="n">kw_only</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">class</span><span class="w"> </span><span class="nc">SceneCfg</span><span class="p">:</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Configuration for a simulation scene.&quot;&quot;&quot;</span>
+
   <span class="n">num_envs</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Number of parallel environments.&quot;&quot;&quot;</span>
+
   <span class="n">env_spacing</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">2.0</span>
-  <span class="n">terrain</span><span class="p">:</span> <span class="n">TerrainImporterCfg</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Spacing between environment origins in meters.&quot;&quot;&quot;</span>
+
+  <span class="n">terrain</span><span class="p">:</span> <span class="n">TerrainEntityCfg</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Terrain configuration. If ``None``, no terrain is added.&quot;&quot;&quot;</span>
+
   <span class="n">entities</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">EntityCfg</span><span class="p">]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">dict</span><span class="p">)</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Mapping of entity names to their configurations.&quot;&quot;&quot;</span>
+
   <span class="n">sensors</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="n">SensorCfg</span><span class="p">,</span> <span class="o">...</span><span class="p">]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">tuple</span><span class="p">)</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Sensor configurations to attach to the scene.&quot;&quot;&quot;</span>
+
   <span class="n">extent</span><span class="p">:</span> <span class="nb">float</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
-  <span class="n">spec_fn</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">mujoco</span><span class="o">.</span><span class="n">MjSpec</span><span class="p">],</span> <span class="kc">None</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span></div>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Override for ``mjModel.stat.extent``. If ``None``, MuJoCo computes</span>
+<span class="sd">  it automatically.&quot;&quot;&quot;</span>
+
+  <span class="n">spec_fn</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">mujoco</span><span class="o">.</span><span class="n">MjSpec</span><span class="p">],</span> <span class="kc">None</span><span class="p">]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="w">  </span><span class="sd">&quot;&quot;&quot;Optional callback to modify the ``MjSpec`` after entities and sensors</span>
+<span class="sd">  have been added but before compilation.&quot;&quot;&quot;</span></div>
 
 
 
@@ -404,7 +464,7 @@ document.write(`
     <span class="bp">self</span><span class="o">.</span><span class="n">_device</span> <span class="o">=</span> <span class="n">device</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Entity</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Sensor</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span><span class="p">:</span> <span class="n">TerrainImporter</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span><span class="p">:</span> <span class="n">TerrainEntity</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_default_env_origins</span><span class="p">:</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_sensor_context</span><span class="p">:</span> <span class="n">SensorContext</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
 
@@ -418,28 +478,36 @@ document.write(`
       <span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">spec_fn</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="p">)</span></div>
 
 
-<div class="viewcode-block" id="Scene.compile">
-<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.compile">[docs]</a>
   <span class="k">def</span><span class="w"> </span><span class="nf">compile</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">mujoco</span><span class="o">.</span><span class="n">MjModel</span><span class="p">:</span>
-    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">compile</span><span class="p">()</span></div>
+    <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">compile</span><span class="p">()</span>
+
+<div class="viewcode-block" id="Scene.write">
+<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.write">[docs]</a>
+  <span class="k">def</span><span class="w"> </span><span class="nf">write</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="nb">zip</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Write the scene XML and mesh assets to a directory.</span>
+
+<span class="sd">    Creates ``scene.xml`` and an ``assets/`` subdirectory containing mesh files</span>
+<span class="sd">    referenced by the scene. When *zip* is True the directory is compressed into a</span>
+<span class="sd">    ``.zip`` archive and the directory is removed. Operates on a copy of the spec to</span>
+<span class="sd">    avoid mutation.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">      output_dir: Destination directory (created if it doesn&#39;t exist).</span>
+<span class="sd">      zip: If True, produce ``&lt;output_dir&gt;.zip`` instead of a directory.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">export_spec</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">,</span> <span class="nb">zip</span><span class="o">=</span><span class="nb">zip</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="Scene.to_zip">
 <a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.to_zip">[docs]</a>
   <span class="k">def</span><span class="w"> </span><span class="nf">to_zip</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">Path</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Export the scene to a zip file.</span>
-
-<span class="sd">    Warning: The generated zip may require manual adjustment of asset paths</span>
-<span class="sd">    to be reloadable. Specifically, you may need to add assetdir=&quot;assets&quot;</span>
-<span class="sd">    to the compiler directive in the XML.</span>
-
-<span class="sd">    Args:</span>
-<span class="sd">      path: Output path for the zip file.</span>
-
-<span class="sd">    TODO: Verify if this is fixed in future MuJoCo releases.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">with</span> <span class="n">path</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;wb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-      <span class="n">mujoco</span><span class="o">.</span><span class="n">MjSpec</span><span class="o">.</span><span class="n">to_zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span></div>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Deprecated. Use ``write(output_dir, zip=True)`` instead.&quot;&quot;&quot;</span>
+    <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+      <span class="s2">&quot;Scene.to_zip() is deprecated. Use Scene.write(path, zip=True).&quot;</span><span class="p">,</span>
+      <span class="ne">DeprecationWarning</span><span class="p">,</span>
+      <span class="n">stacklevel</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="nb">zip</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
 
 
   <span class="c1"># Attributes.</span>
@@ -469,7 +537,7 @@ document.write(`
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span>
 
   <span class="nd">@property</span>
-  <span class="k">def</span><span class="w"> </span><span class="nf">terrain</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TerrainImporter</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
+  <span class="k">def</span><span class="w"> </span><span class="nf">terrain</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TerrainEntity</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span>
 
   <span class="nd">@property</span>
@@ -480,12 +548,20 @@ document.write(`
   <span class="k">def</span><span class="w"> </span><span class="nf">device</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_device</span>
 
-  <span class="k">def</span><span class="w"> </span><span class="fm">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;terrain&quot;</span><span class="p">:</span>
-      <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="s2">&quot;No terrain configured in this scene.&quot;</span><span class="p">)</span>
-      <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span>
+<div class="viewcode-block" id="Scene.collect_variant_info">
+<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.collect_variant_info">[docs]</a>
+  <span class="k">def</span><span class="w"> </span><span class="nf">collect_variant_info</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+  <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">VariantMetadata</span><span class="p">]]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Collect variant metadata for entities with mesh variants.&quot;&quot;&quot;</span>
+    <span class="n">result</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">VariantMetadata</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">ent</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+      <span class="k">if</span> <span class="n">ent</span><span class="o">.</span><span class="n">variant_metadata</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">/&quot;</span><span class="p">,</span> <span class="n">ent</span><span class="o">.</span><span class="n">variant_metadata</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">result</span></div>
 
+
+  <span class="k">def</span><span class="w"> </span><span class="fm">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="p">:</span>
       <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
     <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="p">:</span>
@@ -493,8 +569,6 @@ document.write(`
 
     <span class="c1"># Not found, raise helpful error.</span>
     <span class="n">available</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
-    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-      <span class="n">available</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;terrain&quot;</span><span class="p">)</span>
     <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Scene element &#39;</span><span class="si">{</span><span class="n">key</span><span class="si">}</span><span class="s2">&#39; not found. Available: </span><span class="si">{</span><span class="n">available</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
   <span class="c1"># Methods.</span>
@@ -504,8 +578,6 @@ document.write(`
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Shared sensing resources, or None if no cameras/raycasts.&quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensor_context</span>
 
-<div class="viewcode-block" id="Scene.initialize">
-<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.initialize">[docs]</a>
   <span class="k">def</span><span class="w"> </span><span class="nf">initialize</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">mj_model</span><span class="p">:</span> <span class="n">mujoco</span><span class="o">.</span><span class="n">MjModel</span><span class="p">,</span>
@@ -532,33 +604,23 @@ document.write(`
         <span class="n">camera_sensors</span><span class="o">=</span><span class="n">camera_sensors</span><span class="p">,</span>
         <span class="n">raycast_sensors</span><span class="o">=</span><span class="n">raycast_sensors</span><span class="p">,</span>
         <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_device</span><span class="p">,</span>
-      <span class="p">)</span></div>
+      <span class="p">)</span>
 
-
-<div class="viewcode-block" id="Scene.reset">
-<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.reset">[docs]</a>
   <span class="k">def</span><span class="w"> </span><span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env_ids</span><span class="p">:</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span> <span class="o">|</span> <span class="nb">slice</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">ent</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
       <span class="n">ent</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">env_ids</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">sensor</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
-      <span class="n">sensor</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">env_ids</span><span class="p">)</span></div>
+      <span class="n">sensor</span><span class="o">.</span><span class="n">reset</span><span class="p">(</span><span class="n">env_ids</span><span class="p">)</span>
 
-
-<div class="viewcode-block" id="Scene.update">
-<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.update">[docs]</a>
   <span class="k">def</span><span class="w"> </span><span class="nf">update</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dt</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">ent</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
       <span class="n">ent</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dt</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">sensor</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
-      <span class="n">sensor</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dt</span><span class="p">)</span></div>
+      <span class="n">sensor</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dt</span><span class="p">)</span>
 
-
-<div class="viewcode-block" id="Scene.write_data_to_sim">
-<a class="viewcode-back" href="../../../source/api/scene.html#mjlab.scene.Scene.write_data_to_sim">[docs]</a>
   <span class="k">def</span><span class="w"> </span><span class="nf">write_data_to_sim</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">ent</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
-      <span class="n">ent</span><span class="o">.</span><span class="n">write_data_to_sim</span><span class="p">()</span></div>
-
+      <span class="n">ent</span><span class="o">.</span><span class="n">write_data_to_sim</span><span class="p">()</span>
 
   <span class="c1"># Private methods.</span>
 
@@ -581,6 +643,14 @@ document.write(`
         <span class="n">key_qpos</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ent</span><span class="o">.</span><span class="n">spec</span><span class="o">.</span><span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">qpos</span><span class="p">))</span>
         <span class="n">key_ctrl</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ent</span><span class="o">.</span><span class="n">spec</span><span class="o">.</span><span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">ctrl</span><span class="p">))</span>
         <span class="n">ent</span><span class="o">.</span><span class="n">spec</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">ent</span><span class="o">.</span><span class="n">spec</span><span class="o">.</span><span class="n">keys</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+      <span class="n">non_default</span> <span class="o">=</span> <span class="n">non_default_option_fields</span><span class="p">(</span><span class="n">ent</span><span class="o">.</span><span class="n">spec</span><span class="o">.</span><span class="n">option</span><span class="p">)</span>
+      <span class="k">if</span> <span class="n">non_default</span><span class="p">:</span>
+        <span class="n">fields</span> <span class="o">=</span> <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">non_default</span><span class="p">)</span>
+        <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+          <span class="sa">f</span><span class="s2">&quot;Entity &#39;</span><span class="si">{</span><span class="n">ent_name</span><span class="si">}</span><span class="s2">&#39; has non-default &lt;option&gt; fields (</span><span class="si">{</span><span class="n">fields</span><span class="si">}</span><span class="s2">) that will&quot;</span>
+          <span class="s2">&quot; not be propagated by MjSpec.attach(). Use MujocoCfg instead.&quot;</span><span class="p">,</span>
+          <span class="n">stacklevel</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+        <span class="p">)</span>
       <span class="n">frame</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">worldbody</span><span class="o">.</span><span class="n">add_frame</span><span class="p">()</span>
       <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">attach</span><span class="p">(</span><span class="n">ent</span><span class="o">.</span><span class="n">spec</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">ent_name</span><span class="si">}</span><span class="s2">/&quot;</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">frame</span><span class="p">)</span>
     <span class="c1"># Add merged keyframe to scene spec.</span>
@@ -598,15 +668,25 @@ document.write(`
       <span class="k">return</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">terrain</span><span class="o">.</span><span class="n">num_envs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">num_envs</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">terrain</span><span class="o">.</span><span class="n">env_spacing</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">env_spacing</span>
-    <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span> <span class="o">=</span> <span class="n">TerrainImporter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">terrain</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_device</span><span class="p">)</span>
+    <span class="n">terrain</span> <span class="o">=</span> <span class="n">TerrainEntity</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">terrain</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_device</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span> <span class="o">=</span> <span class="n">terrain</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="p">[</span><span class="s2">&quot;terrain&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">terrain</span>
+    <span class="n">non_default</span> <span class="o">=</span> <span class="n">non_default_option_fields</span><span class="p">(</span><span class="n">terrain</span><span class="o">.</span><span class="n">spec</span><span class="o">.</span><span class="n">option</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">non_default</span><span class="p">:</span>
+      <span class="n">fields</span> <span class="o">=</span> <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">non_default</span><span class="p">)</span>
+      <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">&quot;Terrain has non-default &lt;option&gt; fields (</span><span class="si">{</span><span class="n">fields</span><span class="si">}</span><span class="s2">) that will not be&quot;</span>
+        <span class="s2">&quot; propagated by MjSpec.attach(). Use MujocoCfg instead.&quot;</span><span class="p">,</span>
+        <span class="n">stacklevel</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+      <span class="p">)</span>
     <span class="n">frame</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">worldbody</span><span class="o">.</span><span class="n">add_frame</span><span class="p">()</span>
-    <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">attach</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_terrain</span><span class="o">.</span><span class="n">spec</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">frame</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">attach</span><span class="p">(</span><span class="n">terrain</span><span class="o">.</span><span class="n">spec</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">frame</span><span class="p">)</span>
 
   <span class="k">def</span><span class="w"> </span><span class="nf">_add_sensors</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">sensor_cfg</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cfg</span><span class="o">.</span><span class="n">sensors</span><span class="p">:</span>
       <span class="n">sns</span> <span class="o">=</span> <span class="n">sensor_cfg</span><span class="o">.</span><span class="n">build</span><span class="p">()</span>
       <span class="n">sns</span><span class="o">.</span><span class="n">edit_spec</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_entities</span><span class="p">)</span>
-      <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="p">[</span><span class="n">sensor_cfg</span><span class="o">.</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">sns</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="p">[</span><span class="n">sensor_cfg</span><span class="o">.</span><span class="n">prefixed_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">sns</span>
 
     <span class="k">for</span> <span class="n">sns</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_spec</span><span class="o">.</span><span class="n">sensors</span><span class="p">:</span>
       <span class="k">if</span> <span class="n">sns</span><span class="o">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sensors</span><span class="p">:</span>
@@ -659,7 +739,7 @@ By The mjlab Developers
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Feb 16, 2026.
+  Last updated on May 12, 2026.
   <br/>
 </p>
   </div>
